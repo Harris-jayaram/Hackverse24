@@ -1,0 +1,95 @@
+/* Body */
+body {
+    background: #076585;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fff, #076585);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fff, #076585); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     /* Use a common font for better compatibility */
+}
+
+/* Form */
+form {
+    width: 500px;
+    margin: 50px auto; /* Center the form horizontally and add some top margin */
+    background-color: #f4f4f4;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Add a subtle shadow effect */
+}
+
+/* Heading */
+h1 {
+    text-align: center;
+    margin: 20px 0; /* Add some vertical margin */
+    color: #333;
+    text-transform: uppercase; /* Transform text to uppercase for a bold look */
+}
+
+/* Labels */
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px; /* Reduce the margin for labels */
+    color: #555; /* Use a slightly lighter color for labels */
+}
+
+/* Input fields */
+input[type="text"],
+input[type="number"],
+select,
+textarea,
+input[type="tel"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+    width: calc(100% - 20px); /* Calculate width with padding and border */
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #333;
+    background-color: #f9f9f9; /* Use a lighter background color */
+    transition: border-color 0.3s ease; /* Add smooth transition for border color */
+}
+
+/* Input fields focus state */
+input[type="text"]:focus,
+input[type="number"]:focus,
+select:focus,
+textarea:focus,
+input[type="tel"]:focus {
+    border-color: #666; /* Change border color on focus */
+}
+
+/* Select options */
+select option {
+    color: #333;
+}
+
+/* Submit button */
+input[type="submit"] {
+    padding: 15px 30px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-transform: uppercase; /* Transform text to uppercase for consistency */
+}
+
+/* Submit button hover state */
+input[type="submit"]:hover {
+    background-color: #32aaba;
+}
+
+/* Valid input field */
+input[type="tel"]:valid {
+    border-color: #4CAF50;
+}
+
+/* Invalid input field */
+input[type="tel"]:invalid {
+    border-color: #f44336;
+}
+select option {
+     color: white; 
+    background: #333;
+}
